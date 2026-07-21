@@ -4,10 +4,10 @@
 	
 	DOI: https://doi.org/10.1016/j.socscimed.2026.119622
 	
-  DATA (collected from June 2021 to June 2023)
+	DATA (collected from June 2021 to June 2023)
 	1. Data collected on 2,164 individuals from 625 households from AltaMed Medical Group 
 
-	**ANALYSES** 
+	_ANALYSES_
 	*PRIMARY*
 	1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from 
 		 Time 1 to Time 2 for Messaging and Financial Incentives (individuals = 2,160, households = 625) 
