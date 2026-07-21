@@ -1,4 +1,4 @@
-	PURPOSE
+**PURPOSE**
 	The NIH-Antibody repository contains code for manuscript "Financial incentives and social messaging for repeat SARS-CoV-2 antibody testing among the underserved: A randomized trial" 
 	published in Social Science & Medicine in July 2026
 	
