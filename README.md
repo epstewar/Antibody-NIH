@@ -11,16 +11,13 @@
 
 **ANALYSES**
 
- *PRIMARY*
+ *PRIMARY*```
  
  
-	```1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from 
+	1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from 
 		 Time 1 to Time 2 for Messaging and Financial Incentives (individuals = 2,160, households = 625) 
-		 
-		 
 	2. Table 2 values are estimated percentage points (PP) and change in estimated percentage 
 	   points (treatment-by-time interaction effects)
-	   
 	   
 	3. Linear probability model (mixed effects linear regression) testing change in mean attendance 
 	   from Time 1 to Time 2 for Messaging and Financial Incentives (individuals = 2,160, households = 625)
