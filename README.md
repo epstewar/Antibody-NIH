@@ -43,14 +43,16 @@ Data collected on 2,164 individuals from 625 households from AltaMed Medical Gro
       </li>
     </ol>
   </li>
-
+    </ol>
+<ol start="3">
   <li>
     <em>Mechanism of effect</em>
     <ol>
       <li>Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1, between financial incentives and messaging study arms (treatment-by-treatment interaction)</li>
     </ol>
   </li>
-
+    </ol>
+<ol start="4">
   <li>
     <em>Heterogeneity of effects and descriptive trends</em>
     <ol>
