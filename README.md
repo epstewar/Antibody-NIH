@@ -54,8 +54,6 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 **FILES**
 
-  *(N = 14)*
-
 <ol>
   <li>Import_redcap.sas
     <ol type="i">
@@ -64,7 +62,100 @@ Schaeffer Center for Health Policy and Economics, University Southern California
   </li>
 </ol>
 
+<ol start="2">
+  <li>
+    <strong>analytic_file.sas</strong>
+    <ol type="i">
+      <li>Edit and recode survey variables</li>
+      <li>Convert data from wide to long format for models (<strong>savepath.analytic</strong>)</li>
+    </ol>
+  </li>
 
+  <li>
+    <strong>consort.sas</strong>:
+    <ol type="i">
+      <li>Output values for consort diagram (<strong>Fig. 1; section 3.1 Sample</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>check_decline.sas</strong>:
+    <ol type="i">
+      <li>Output rates of decline and chi-square statistic (<strong>Fig. 1; section 3.1 Sample</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>Table1.sas</strong>:
+    <ol type="i">
+      <li>Calculate numbers (%) for sample characteristics (<strong>Table 1; section 3.1 Sample</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>Table2.sas</strong>:
+    <ol type="i">
+      <li>Execute model for primary analysis and get bootstrapped distribution of predicted probabilities, differences in predicted probabilities, and the treatment-by-time interaction effects (<strong>Table 2; section 3.2 Primary hypothesis</strong>)</li>
+      <li>95% confidence intervals are based on the 2.5% and 97.5% cut-offs of bootstrapped distribution</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>Table_S2a.sas</strong>:
+    <ol type="i">
+      <li>Output estimates for primary hypothesis 1 and secondary Time 1 hypotheses (<strong>Supplementary Table S2a; section 3.2 Primary hypothesis</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>3wayinteraction.sas</strong>:
+    <ol type="i">
+      <li>Output estimates for three-way interaction model testing for additive effects (<strong>section 3.2 Primary hypothesis</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>Table_S2b.do</strong>:
+    <ol type="i">
+      <li>Output estimates for linear probability model (<strong>Supplementary Table S2b; section 3.2 Primary hypothesis</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>mechanism_of_effect.sas</strong>:
+    <ol type="i">
+      <li>Output estimates for mechanism of effect model (<strong>section 3.3 Mechanism of the effect</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>Table3.sas</strong>:
+    <ol type="i">
+      <li>Output statistics for NNI (<strong>Table 3; section 3.3 Mechanism of the effect</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>Table_S4.sas</strong>:
+    <ol type="i">
+      <li>Output estimates for secondary Time 2 hypotheses (<strong>Supplementary Table S4; section 3.4 secondary hypotheses</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>Table_S5.sas</strong>:
+    <ol type="i">
+      <li>Output estimates for heterogeneity of effect(s) (<strong>Supplementary Table S5; section 3.5 Heterogeneity of effects and descriptive trends</strong>)</li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>antibody_levels.sas</strong>:
+    <ol type="i">
+      <li>Output descriptive statistics for antibody trends (<strong>Supplementary Table 6 and Table 7; section 3.5 Heterogeneity of effects and descriptive trends</strong>)</li>
+    </ol>
+  </li>
+</ol>
 
 2. analytic_file.sas
     1. Edit and recode survey variables
