@@ -28,7 +28,8 @@ Data collected on 2,164 individuals from 625 households from AltaMed Medical Gro
       <li>Number Needed to Incentivize (NNI): The reciprocal of the probability of attending Time 2, given Time 1</li>
     </ol>
   </li>
-
+    </ol>
+<ol start="2">
   <li>
     <em>Secondary</em>
     <ol>
@@ -78,7 +79,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 <ol>
   <li>
-    <strong>Import_redcap.sas</strong>
+    <em>Import_redcap.sas</em>
     <ol type="i">
       <li>import REDCap data, and create revised antibody level variables</li>
     </ol>
@@ -86,7 +87,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="2">
   <li>
-    <strong>analytic_file.sas</strong>
+    <em>analytic_file.sas</em>
     <ol type="i">
       <li>Edit and recode survey variables</li>
       <li>Convert data from wide to long format for models (<strong>savepath.analytic</strong>)</li>
@@ -95,7 +96,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="3">
   <li>
-    <strong>consort.sas</strong>
+    <em>consort.sas</em>
     <ol type="i">
       <li>Output values for consort diagram (<strong>Fig. 1; section 3.1 Sample</strong>)</li>
     </ol>
@@ -103,7 +104,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="4">
   <li>
-    <strong>check_decline.sas</strong>
+    <em>check_decline.sas</em>
     <ol type="i">
       <li>Output rates of decline and chi-square statistic (<strong>Fig. 1; section 3.1 Sample</strong>)</li>
     </ol>
@@ -111,7 +112,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="5">
   <li>
-    <strong>Table1.sas</strong>
+    <em>Table1.sas</em>
     <ol type="i">
       <li>Calculate numbers (%) for sample characteristics (<strong>Table 1; section 3.1 Sample</strong>)</li>
     </ol>
@@ -119,7 +120,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="6">
   <li>
-    <strong>Table2.sas</strong>
+    <em>Table2.sas</em>
     <ol type="i">
       <li>Execute model for primary analysis and get bootstrapped distribution of predicted probabilities, differences in predicted probabilities, and the treatment-by-time interaction effects (<strong>Table 2; section 3.2 Primary hypothesis</strong>)</li>
       <li>95% confidence intervals are based on the 2.5% and 97.5% cut-offs of bootstrapped distribution</li>
@@ -128,7 +129,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="7">
   <li>
-    <strong>Table_S2a.sas</strong>
+    <em>Table_S2a.sas</em>
     <ol type="i">
       <li>Output estimates for primary hypothesis 1 and secondary Time 1 hypotheses (<strong>Supplementary Table S2a; section 3.2 Primary hypothesis</strong>)</li>
     </ol>
@@ -136,7 +137,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="8">
   <li>
-    <strong>3wayinteraction.sas</strong>
+    <em>3wayinteraction.sas</em>
     <ol type="i">
       <li>Output estimates for three-way interaction model testing for additive effects (<strong>section 3.2 Primary hypothesis</strong>)</li>
     </ol>
@@ -144,7 +145,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="9">
   <li>
-    <strong>Table_S2b.do</strong>
+    <em>Table_S2b.do</em>
     <ol type="i">
       <li>Output estimates for linear probability model (<strong>Supplementary Table S2b; section 3.2 Primary hypothesis</strong>)</li>
     </ol>
@@ -152,7 +153,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="10">
   <li>
-    <strong>mechanism_of_effect.sas</strong>
+    <em>mechanism_of_effect.sas</em>
     <ol type="i">
       <li>Output estimates for mechanism of effect model (<strong>section 3.3 Mechanism of the effect</strong>)</li>
     </ol>
@@ -160,7 +161,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="11">
   <li>
-    <strong>Table3.sas</strong>
+    <em>Table3.sas</em>
     <ol type="i">
       <li>Output statistics for NNI (<strong>Table 3; section 3.3 Mechanism of the effect</strong>)</li>
     </ol>
@@ -168,7 +169,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="12">
   <li>
-    <strong>Table_S4.sas</strong>
+    <em>Table_S4.sas</em>
     <ol type="i">
       <li>Output estimates for secondary Time 2 hypotheses (<strong>Supplementary Table S4; section 3.4 secondary hypotheses</strong>)</li>
     </ol>
@@ -176,7 +177,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="13">
   <li>
-    <strong>Table_S5.sas</strong>
+    <em>Table_S5.sas</em>
     <ol type="i">
       <li>Output estimates for heterogeneity of effect(s) (<strong>Supplementary Table S5; section 3.5 Heterogeneity of effects and descriptive trends</strong>)</li>
     </ol>
@@ -184,7 +185,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
 <ol start="14">
   <li>
-    <strong>antibody_levels.sas</strong>
+    <em>antibody_levels.sas</em>
     <ol type="i">
       <li>Output descriptive statistics for antibody trends (<strong>Supplementary Table 6 and Table 7; section 3.5 Heterogeneity of effects and descriptive trends</strong>)</li>
     </ol>
