@@ -21,7 +21,7 @@
 	4. Testing for additive effects with a mixed effects logistic regression with a three-way time-by-treatment(s) 
 	   interaction effect (time x messaging x financial incentives) 
 	   a. Wald Test
-	5. Number Needed to Incentivize (NNI): The reciprocal of the probability of attending Time 2, given attendance at Time 1```
+	5. Number Needed to Incentivize (NNI): The reciprocal of the probability of attending Time 2, given attendance at Time 1
 	
  *SECONDARY*
  
@@ -45,7 +45,7 @@
 	 1. Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1, between 
 	    study arm and each significant (at p < 0.05) head of household reported characteristic (individuals = 2,160, households = 625)
 	    (reference group = personal/lottery)```
-	 ```2. Antibody trends 
+	 2. Antibody trends 
 	    a. Chi-square testing whether inconclusive antibody test rates differed by study arm for Time 1 and Time 2 
 	    b. Percentage of seropositive individuals at Time 1 vs. Time 2 
 	    c. Mixed effects linear regression testing difference in mean IgG and IgM antibody levels at Time 1 vs. Time 2```
