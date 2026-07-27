@@ -12,52 +12,56 @@ Data collected on 2,164 individuals from 625 households from AltaMed Medical Gro
 
 **ANALYSES**
 
-<p><strong>PRIMARY</strong></p>
-
 <ol>
-  <li>Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from Time 1 to Time 2 for Messaging and Financial Incentives</li>
-  <li>Table 2 values are estimated percentage points (PP) and change in estimated percentage points (treatment-by-time interaction effects)</li>
-  <li>Multi-level linear probability model testing change in mean attendance from Time 1 to Time 2 for Messaging and Financial Incentives</li>
   <li>
-    Testing for additive effects with a mixed effects logistic regression with a three-way time-by-treatment(s) interaction effect (time x messaging x financial incentives)
-    <ol type="i">
-      <li>Wald Test</li>
+    <em>Primary</em>
+    <ol>
+      <li>Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from Time 1 to Time 2 for Messaging and Financial Incentives</li>
+      <li>Table 2 values are estimated percentage points (PP) and change in estimated percentage points (treatment-by-time interaction effects)</li>
+      <li>Multi-level linear probability model testing change in mean attendance from Time 1 to Time 2 for Messaging and Financial Incentives</li>
+      <li>
+        Testing for additive effects with a mixed effects logistic regression with a three-way time-by-treatment(s) interaction effect (time x messaging x financial incentives)
+        <ol type="i">
+          <li>Wald Test</li>
+        </ol>
+      </li>
+      <li>Number Needed to Incentivize (NNI): The reciprocal of the probability of attending Time 2, given Time 1</li>
     </ol>
   </li>
-  <li>Number Needed to Incentivize (NNI): The reciprocal of the probability of attending Time 2, given Time 1</li>
-</ol>
 
-<p><strong>SECONDARY</strong></p>
-
-<ol>
-  <li>Time 1: logistic regression testing change in attendance for each head of household reported characteristic</li>
   <li>
-    Time 2:
-    <ol type="i">
-      <li>Logistic regression testing difference (treatment-by-time interaction) in the change in Time 2 attendance, conditional on Time 1 attendance, by financial incentive study arm and each head of household reported characteristic</li>
-      <li>Mixed effects logistic regression testing difference in Time 2 attendance by seropositivity status (yes vs. no)</li>
+    <em>Secondary</em>
+    <ol>
+      <li>Time 1: logistic regression testing change in attendance for each head of household reported characteristic</li>
+      <li>
+        Time 2:
+        <ol type="i">
+          <li>Logistic regression testing difference (treatment-by-time interaction) in the change in Time 2 attendance, conditional on Time 1 attendance, by financial incentive study arm and each head of household reported characteristic</li>
+          <li>Mixed effects logistic regression testing difference in Time 2 attendance by seropositivity status (yes vs. no)</li>
+        </ol>
+      </li>
     </ol>
   </li>
-</ol>
 
-<p><strong>MECHANISM OF EFFECT</strong></p>
-
-<ol>
-  <li>Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1, between financial incentives and messaging study arms (treatment-by-treatment interaction)</li>
-</ol>
-
-<p><strong>HETEROGENEITY OF EFFECTS AND DESCRIPTIVE TRENDS</strong></p>
-
-<ol>
   <li>
-    Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1, between study arm and each significant (at p &lt; 0.05) head of household reported characteristic (reference group = personal/lottery)
+    <em>Mechanism of effect</em>
+    <ol>
+      <li>Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1, between financial incentives and messaging study arms (treatment-by-treatment interaction)</li>
+    </ol>
   </li>
+
   <li>
-    Antibody trends
-    <ol type="i">
-      <li>Chi-square testing whether inconclusive antibody test rates differed by study arm for Time 1 and Time 2</li>
-      <li>Percentage of seropositive individuals at Time 1 vs. Time 2</li>
-      <li>Mixed effects linear regression testing difference in mean IgG and IgM antibody levels at Time 1 vs. Time 2</li>
+    <em>Heterogeneity of effects and descriptive trends</em>
+    <ol>
+      <li>Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1, between study arm and each significant (at p &lt; 0.05) head of household reported characteristic (reference group = personal/lottery)</li>
+      <li>
+        Antibody trends
+        <ol type="i">
+          <li>Chi-square testing whether inconclusive antibody test rates differed by study arm for Time 1 and Time 2</li>
+          <li>Percentage of seropositive individuals at Time 1 vs. Time 2</li>
+          <li>Mixed effects linear regression testing difference in mean IgG and IgM antibody levels at Time 1 vs. Time 2</li>
+        </ol>
+      </li>
     </ol>
   </li>
 </ol>
