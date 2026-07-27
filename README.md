@@ -61,8 +61,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
       <li>import REDCap data, and create revised antibody level variables</li>
     </ol>
   </li>
-</ol>
-<br>
+
 <ol start="2">
   <li>
     <strong>analytic_file.sas</strong>
@@ -71,7 +70,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
       <li>Convert data from wide to long format for models (<strong>savepath.analytic</strong>)</li>
     </ol>
   </li>
-<br>
+
   <li>
     <strong>consort.sas</strong>
     <ol type="i">
