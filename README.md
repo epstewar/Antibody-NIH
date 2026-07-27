@@ -53,7 +53,8 @@ SAS version 9.4 and STATA software version 16
 Schaeffer Center for Health Policy and Economics, University Southern California
 
 **FILES**
-*(N = 14)*
+
+  *(N = 14)*
 
 <ol>
   <li>Import_redcap.sas
