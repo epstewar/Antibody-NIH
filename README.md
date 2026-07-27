@@ -13,11 +13,8 @@ DATA
  *PRIMARY*
 	
 1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from Time 1 to Time 2 for Messaging and Financial Incentives
-	
 2. Table 2 values are estimated percentage points (PP) and change in estimated percentage points (treatment-by-time interaction effects)
-	
 3. Multi-level linear probability model testing change in mean attendance from Time 1 to Time 2 for Messaging and Financial Incentives
-	
 4. Testing for additive effects with a mixed effects logistic regression with a three-way time-by-treatment(s) 
 	 interaction effect (time x messaging x financial incentives) 
 		a. Wald Test
@@ -58,7 +55,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 **FILES** 
 
 1. Import_redcap.sas 
-	 	a. import REDCap data, and create revised antibody level variables 
+		a. import REDCap data, and create revised antibody level variables 
 	
 2. analytic_file.sas
 	  a. Edit and recode survey variables
@@ -75,7 +72,8 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 	
 6. Table2.sas
 	  a. Execute model for primary analysis and get bootstrapped distribution of predicted probabilities, 
-	     differences in predicted probabilities, and the treatment-by-time interaction effects (**Table 2; section 3.2 Primary hypothesis**)
+	     differences in predicted probabilities, and the treatment-by-time interaction 
+	     effects (**Table 2; section 3.2 Primary hypothesis**)
 	  b. 95% confidence intervals are based on the 2.5% and 97.5% cut-offs of bootstrapped distribution
 
 7. Table_S2a.sas
