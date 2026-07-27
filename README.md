@@ -65,7 +65,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
 2. analytic_file.sas  
-   - Edit and recode survey variables  
+   - Edit and recode survey variables
    - Convert data from wide to long format for models (**savepath.analytic**)
 
 3. consort.sas:
