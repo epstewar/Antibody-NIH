@@ -6,11 +6,12 @@ published in Social Science & Medicine in July 2026
 DOI: https://doi.org/10.1016/j.socscimed.2026.119622
 	
 **DATA** 
-1. Data collected on 2,164 individuals from 625 households from AltaMed Medical Group from June 2021 to June 2023
+
+Data collected on 2,164 individuals from 625 households from AltaMed Medical Group from June 2021 to June 2023
 
 **ANALYSES**
 
-*PRIMARY*
+  *PRIMARY*
  
 1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from Time 1 to Time 2 for Messaging and Financial Incentives
 2. Table 2 values are estimated percentage points (PP) and change in estimated percentage points (treatment-by-time interaction effects)
@@ -20,7 +21,7 @@ DOI: https://doi.org/10.1016/j.socscimed.2026.119622
     1. Wald Test
 5. Number Needed to Incentivize (NNI): The reciprocal of the probability of attending Time 2, given Time 1
 	
-*SECONDARY*
+  *SECONDARY*
  
 1. Time 1: logistic regression testing change in attendance for each head of household reported characteristic
 2. Time 2: 
@@ -28,12 +29,12 @@ DOI: https://doi.org/10.1016/j.socscimed.2026.119622
 			 conditional on Time 1 attendance, by financial incentive study arm and each head of household reported characteristic 
     2. Mixed effects logistic regression testing difference in Time 2 attendance by seropositivity status (yes vs. no) 
 	      
-*MECHANISM OF EFFECT* 
+  *MECHANISM OF EFFECT* 
 
 1. Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1,
 	 between financial incentives and messaging study arms (treatment-by-treatment interaction)
 	    
-*HETEROGENEITY OF EFFECTS AND DESCRIPTIVE TRENDS* 
+  *HETEROGENEITY OF EFFECTS AND DESCRIPTIVE TRENDS* 
  
 1. Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1, between 
 	 study arm and each significant (at p < 0.05) head of household reported characteristic 
@@ -51,10 +52,10 @@ SAS version 9.4 and STATA software version 16
 
 Schaeffer Center for Health Policy and Economics, University Southern California
 	
-**FILES** 
+**FILES**
 
-1. Import_redcap.sas 
-    1. import REDCap data, and create revised antibody level variables 
+1. Import_redcap.sas
+   1. Import REDCap data and create revised antibody level variables.
 	
 2. analytic_file.sas
     1. Edit and recode survey variables
