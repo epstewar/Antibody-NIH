@@ -54,8 +54,15 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 **FILES**
 
-1. Import_redcap.sas
-   1. Import REDCap data and create revised antibody level variables.
+<ol>
+  <li>Import_redcap.sas
+    <ol type="i">
+      <li>import REDCap data, and create revised antibody level variables</li>
+    </ol>
+  </li>
+</ol>
+
+1. Import_redcap.sas 1. Import REDCap data and create revised antibody level variables.
 
 2. analytic_file.sas  
     1. Edit and recode survey variables
