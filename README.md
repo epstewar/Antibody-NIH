@@ -17,7 +17,7 @@ DATA
 3. Multi-level linear probability model testing change in mean attendance from Time 1 to Time 2 for Messaging and Financial Incentives
 4. Testing for additive effects with a mixed effects logistic regression with a three-way time-by-treatment(s) 
 	 interaction effect (time x messaging x financial incentives) 
-		a. Wald Test
+		1. Wald Test
 	
 5. Number Needed to Incentivize (NNI): The reciprocal of the probability of attending Time 2, given Time 1
 	
@@ -25,9 +25,9 @@ DATA
  
 1. Time 1: logistic regression testing change in attendance for each head of household reported characteristic
 2. Time 2: 
-		a. logistic regression testing difference (treatment-by-time interaction) in the change in Time 2 attendance, 
+		1. logistic regression testing difference (treatment-by-time interaction) in the change in Time 2 attendance, 
 			 conditional on Time 1 attendance, by financial incentive study arm and each head of household reported characteristic 
-		b. Mixed effects logistic regression testing difference in Time 2 attendance by seropositivity status (yes vs. no) 
+		2. Mixed effects logistic regression testing difference in Time 2 attendance by seropositivity status (yes vs. no) 
 	      
  *MECHANISM OF EFFECT* 
 
@@ -40,9 +40,9 @@ DATA
 	 study arm and each significant (at p < 0.05) head of household reported characteristic 
 	 (reference group = personal/lottery)
 2. Antibody trends 
-	  a. Chi-square testing whether inconclusive antibody test rates differed by study arm for Time 1 and Time 2 
-    b. Percentage of seropositive individuals at Time 1 vs. Time 2 
-    c. Mixed effects linear regression testing difference in mean IgG and IgM antibody levels at Time 1 vs. Time 2
+  	1. Chi-square testing whether inconclusive antibody test rates differed by study arm for Time 1 and Time 2 
+		2. Percentage of seropositive individuals at Time 1 vs. Time 2 
+		3. Mixed effects linear regression testing difference in mean IgG and IgM antibody levels at Time 1 vs. Time 2
  
 **SOFTWARE**
  
@@ -58,47 +58,47 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     1. import REDCap data, and create revised antibody level variables 
 	
 2. analytic_file.sas
-	  a. Edit and recode survey variables
-	  b. Convert data from wide to long format for models (**savepath.analytic**)
+		1. Edit and recode survey variables
+		2. Convert data from wide to long format for models (**savepath.analytic**)
 	
 3. consort.sas
-	  a. Output values for consort diagram (**Fig. 1; section 3.1 Sample**)
+		1. Output values for consort diagram (**Fig. 1; section 3.1 Sample**)
 	
 4. check_decline.sas 
-	  a. Output rates of decline and chi-square statistic (**Fig. 1; section 3.1 Sample**)
+		1. Output rates of decline and chi-square statistic (**Fig. 1; section 3.1 Sample**)
 	
 5. Table1.sas 
-	  a. Calculate numbers (%) for sample characteristics (**Table 1; section 3.1 Sample**)
+		1. Calculate numbers (%) for sample characteristics (**Table 1; section 3.1 Sample**)
 	
 6. Table2.sas
-	  a. Execute model for primary analysis and get bootstrapped distribution of predicted probabilities, 
+		1. Execute model for primary analysis and get bootstrapped distribution of predicted probabilities, 
 	     differences in predicted probabilities, and the treatment-by-time interaction 
 	     effects (**Table 2; section 3.2 Primary hypothesis**)
-	  b. 95% confidence intervals are based on the 2.5% and 97.5% cut-offs of bootstrapped distribution
+	  2. 95% confidence intervals are based on the 2.5% and 97.5% cut-offs of bootstrapped distribution
 
 7. Table_S2a.sas
-	  a. Output estimates for primary hypothesis 1 and secondary Time 1 hypotheses (**Supplementary Table S2a; section 3.2 Primary hypothesis**)
+		1. Output estimates for primary hypothesis 1 and secondary Time 1 hypotheses (**Supplementary Table S2a; section 3.2 Primary hypothesis**)
 	
 8. 3wayinteraction.sas
-	  a. Output estimates for three-way interaction model testing for additive effects (**section 3.2 Primary hypothesis**)
+	  1. Output estimates for three-way interaction model testing for additive effects (**section 3.2 Primary hypothesis**)
 	
 9. Table_S2b.do
-	  a. Output estimates for linear probability model (**Supplementary Table S2b; section 3.2 Primary hypothesis**)
+	  1. Output estimates for linear probability model (**Supplementary Table S2b; section 3.2 Primary hypothesis**)
 	   
 10. mechanism_of_effect.sas
-	   a. Output estimates for mechanism of effect model (**section 3.3 Mechanism of the effect**)
+	   1. Output estimates for mechanism of effect model (**section 3.3 Mechanism of the effect**)
 	
 11. Table3.sas 
-	   a. Output statistics for NNI (**Table 3; section 3.3 Mechanism of the effect**)
+	   1. Output statistics for NNI (**Table 3; section 3.3 Mechanism of the effect**)
 	
 12. Table_S4.sas
-	   a. Output estimates for secondary Time 2 hypotheses (**Supplementary Table S4; section 3.4 secondary hypotheses**)
+	   1. Output estimates for secondary Time 2 hypotheses (**Supplementary Table S4; section 3.4 secondary hypotheses**)
 	
 13. Table_S5.sas
-	   a. Output estimates for heterogeneity of effect(s) (**Supplementary Table S5; section 3.5 Heterogeneity of effects and descriptive trends**)
+	   1. Output estimates for heterogeneity of effect(s) (**Supplementary Table S5; section 3.5 Heterogeneity of effects and descriptive trends**)
 	
 14. antibody_levels.sas
-	   a. Output descriptive statistics for antibody trends (**Supplementary Table 6 and Table 7; section 3.5 Heterogeneity of effects and descriptive trends**)
+	   1. Output descriptive statistics for antibody trends (**Supplementary Table 6 and Table 7; section 3.5 Heterogeneity of effects and descriptive trends**)
 	
 
 	
