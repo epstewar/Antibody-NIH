@@ -11,12 +11,17 @@
 **ANALYSES**
 
  *PRIMARY*
+	
 	1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from Time 1 to Time 2 for Messaging and Financial Incentives
+	
 	2. Table 2 values are estimated percentage points (PP) and change in estimated percentage points (treatment-by-time interaction effects)
+	
 	3. Multi-level linear probability model testing change in mean attendance from Time 1 to Time 2 for Messaging and Financial Incentives
+	
 	4. Testing for additive effects with a mixed effects logistic regression with a three-way time-by-treatment(s) 
 	   interaction effect (time x messaging x financial incentives) 
 	   a. Wald Test
+	
 	5. Number Needed to Incentivize (NNI): The reciprocal of the probability of attending Time 2, given Time 1
 	
  *SECONDARY*
