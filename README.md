@@ -11,7 +11,7 @@ Data collected on 2,164 individuals from 625 households from AltaMed Medical Gro
 
 **ANALYSES**
 
-  *PRIMARY*
+    *PRIMARY*
 
 1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from Time 1 to Time 2 for Messaging and Financial Incentives
 2. Table 2 values are estimated percentage points (PP) and change in estimated percentage points (treatment-by-time interaction effects)
@@ -21,7 +21,7 @@ Data collected on 2,164 individuals from 625 households from AltaMed Medical Gro
     1. Wald Test
 5. Number Needed to Incentivize (NNI): The reciprocal of the probability of attending Time 2, given Time 1
 
-  *SECONDARY*
+   *SECONDARY*
 
 1. Time 1: logistic regression testing change in attendance for each head of household reported characteristic
 2. Time 2:
@@ -168,51 +168,4 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
   </li>
 </ol>
-
-2. analytic_file.sas
-    1. Edit and recode survey variables
-    2. Convert data from wide to long format for models (**savepath.analytic**)
-
-3. consort.sas
-    1. Output values for consort diagram (**Fig. 1; section 3.1 Sample**)
-
-4. check_decline.sas
-    1. Output rates of decline and chi-square statistic (**Fig. 1; section 3.1 Sample**)
-
-5. Table1.sas:
-    1. Calculate numbers (%) for sample characteristics (**Table 1; section 3.1 Sample**)
-
-6. Table2.sas:
-    1. Execute model for primary analysis and get bootstrapped distribution of predicted probabilities,
-	     differences in predicted probabilities, and the treatment-by-time interaction
-	     effects (**Table 2; section 3.2 Primary hypothesis**)
-    2. 95% confidence intervals are based on the 2.5% and 97.5% cut-offs of bootstrapped distribution
-
-7. Table_S2a.sas:
-    1. Output estimates for primary hypothesis 1 and secondary Time 1 hypotheses (**Supplementary Table S2a; section 3.2 Primary hypothesis**)
-
-8. 3wayinteraction.sas:
-    1. Output estimates for three-way interaction model testing for additive effects (**section 3.2 Primary hypothesis**)
-
-9. Table_S2b.do:
-    1. Output estimates for linear probability model (**Supplementary Table S2b; section 3.2 Primary hypothesis**)
-
-10. mechanism_of_effect.sas:
-    1. Output estimates for mechanism of effect model (**section 3.3 Mechanism of the effect**)
-
-11. Table3.sas:
-    1. Output statistics for NNI (**Table 3; section 3.3 Mechanism of the effect**)
-
-12. Table_S4.sas:
-    1. Output estimates for secondary Time 2 hypotheses (**Supplementary Table S4; section 3.4 secondary hypotheses**)
-
-13. Table_S5.sas:
-    1. Output estimates for heterogeneity of effect(s) (**Supplementary Table S5; section 3.5 Heterogeneity of effects and descriptive trends**)
-
-14. antibody_levels.sas:
-    1. Output descriptive statistics for antibody trends (**Supplementary Table 6 and Table 7; section 3.5 Heterogeneity of effects and descriptive trends**)
-
-
-
-
 
