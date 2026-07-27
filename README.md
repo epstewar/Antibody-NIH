@@ -72,7 +72,6 @@ Schaeffer Center for Health Policy and Economics, University Southern California
       <li>Convert data from wide to long format for models (<strong>savepath.analytic</strong>)</li>
     </ol>
   </li>
-  
 <br>
 
   <li>
