@@ -5,19 +5,15 @@
 	
 	DOI: https://doi.org/10.1016/j.socscimed.2026.119622
 	
-	DATA (collected from June 2021 to June 2023)
+	DATA 
 	1. Data collected on 2,164 individuals from 625 households from AltaMed Medical Group from June 2021 to June 2023
 
 **ANALYSES**
 
  *PRIMARY*
- 
-	1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from 
-		 Time 1 to Time 2 for Messaging and Financial Incentives
-	2. Table 2 values are estimated percentage points (PP) and change in estimated percentage 
-	   points (treatment-by-time interaction effects)
-	3. Multi-level linear probability model testing change in mean attendance 
-	   from Time 1 to Time 2 for Messaging and Financial Incentives
+	1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from Time 1 to Time 2 for Messaging and Financial Incentives
+	2. Table 2 values are estimated percentage points (PP) and change in estimated percentage points (treatment-by-time interaction effects)
+	3. Multi-level linear probability model testing change in mean attendance from Time 1 to Time 2 for Messaging and Financial Incentives
 	4. Testing for additive effects with a mixed effects logistic regression with a three-way time-by-treatment(s) 
 	   interaction effect (time x messaging x financial incentives) 
 	   a. Wald Test
@@ -56,12 +52,13 @@
 	
 **FILES** 
 
-1. Import_redcap.sas 
-	 a. import REDCap data, and create revised antibody level variables 
+	1. Import_redcap.sas 
+	 	 a. import REDCap data, and create revised antibody level variables 
 	
 	2. analytic_file.sas
 	   a. Edit and recode survey variables
-	   b. Convert data from wide to long format for models (savepath.analytic)
+	   b. Convert data from wide to long format for models 
+(**savepath.analytic**)
 	
 	3. consort.sas
 	   a. Output values for consort diagram (**Fig. 1; section 3.1 Sample**)
