@@ -35,7 +35,7 @@ random intercept/subject = household_id;
 where wave = 1;
 run;  
 
-ods excel file = "/schaeffer-a/sch-projects/dua-data-projects/BEARI/Antibody_Analysis/Code/NIH_analysis/recent_17Oct25/Results/conditional.xlsx";
+ods excel file = "/directory/conditional.xlsx";
 proc print data = pecond_f1; 
 run;
 
