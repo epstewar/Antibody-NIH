@@ -3,7 +3,8 @@
 The NIH-Antibody repository contains code for manuscript "Financial incentives and social messaging for repeat SARS-CoV-2 antibody testing among the underserved: A randomized trial"
 published in Social Science & Medicine in July 2026
 
-DOI: https://doi.org/10.1016/j.socscimed.2026.119622
+**DOI** 
+https://doi.org/10.1016/j.socscimed.2026.119622
 
 **DATA**
 
@@ -11,7 +12,7 @@ Data collected on 2,164 individuals from 625 households from AltaMed Medical Gro
 
 **ANALYSES**
 
-    *PRIMARY*
+   *PRIMARY*
 
 1. Multi-level (mixed effects) logistic regression testing change in attendance (yes vs. no) from Time 1 to Time 2 for Messaging and Financial Incentives
 2. Table 2 values are estimated percentage points (PP) and change in estimated percentage points (treatment-by-time interaction effects)
@@ -29,12 +30,12 @@ Data collected on 2,164 individuals from 625 households from AltaMed Medical Gro
 			 conditional on Time 1 attendance, by financial incentive study arm and each head of household reported characteristic
     2. Mixed effects logistic regression testing difference in Time 2 attendance by seropositivity status (yes vs. no)
 
-  *MECHANISM OF EFFECT*
+   *MECHANISM OF EFFECT*
 
 1. Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1,
 	 between financial incentives and messaging study arms (treatment-by-treatment interaction)
 
-  *HETEROGENEITY OF EFFECTS AND DESCRIPTIVE TRENDS*
+   *HETEROGENEITY OF EFFECTS AND DESCRIPTIVE TRENDS*
 
 1. Mixed effects logistic regression testing difference in Time 2 attendance, conditional on attending Time 1, between
 	 study arm and each significant (at p < 0.05) head of household reported characteristic
