@@ -62,8 +62,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     </ol>
   </li>
 </ol>
-
-
+<br>
 <ol start="2">
   <li>
     <strong>analytic_file.sas</strong>
@@ -79,24 +78,21 @@ Schaeffer Center for Health Policy and Economics, University Southern California
       <li>Output values for consort diagram (<strong>Fig. 1; section 3.1 Sample</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>check_decline.sas</strong>
     <ol type="i">
       <li>Output rates of decline and chi-square statistic (<strong>Fig. 1; section 3.1 Sample</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>Table1.sas</strong>
     <ol type="i">
       <li>Calculate numbers (%) for sample characteristics (<strong>Table 1; section 3.1 Sample</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>Table2.sas</strong>
     <ol type="i">
@@ -104,64 +100,56 @@ Schaeffer Center for Health Policy and Economics, University Southern California
       <li>95% confidence intervals are based on the 2.5% and 97.5% cut-offs of bootstrapped distribution</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>Table_S2a.sas</strong>
     <ol type="i">
       <li>Output estimates for primary hypothesis 1 and secondary Time 1 hypotheses (<strong>Supplementary Table S2a; section 3.2 Primary hypothesis</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>3wayinteraction.sas</strong>
     <ol type="i">
       <li>Output estimates for three-way interaction model testing for additive effects (<strong>section 3.2 Primary hypothesis</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>Table_S2b.do</strong>
     <ol type="i">
       <li>Output estimates for linear probability model (<strong>Supplementary Table S2b; section 3.2 Primary hypothesis</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>mechanism_of_effect.sas</strong>
     <ol type="i">
       <li>Output estimates for mechanism of effect model (<strong>section 3.3 Mechanism of the effect</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>Table3.sas</strong>
     <ol type="i">
       <li>Output statistics for NNI (<strong>Table 3; section 3.3 Mechanism of the effect</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>Table_S4.sas</strong>
     <ol type="i">
       <li>Output estimates for secondary Time 2 hypotheses (<strong>Supplementary Table S4; section 3.4 secondary hypotheses</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>Table_S5.sas</strong>
     <ol type="i">
       <li>Output estimates for heterogeneity of effect(s) (<strong>Supplementary Table S5; section 3.5 Heterogeneity of effects and descriptive trends</strong>)</li>
     </ol>
   </li>
-
-
+<br>
   <li>
     <strong>antibody_levels.sas</strong>
     <ol type="i">
