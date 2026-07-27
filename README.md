@@ -72,10 +72,11 @@ Schaeffer Center for Health Policy and Economics, University Southern California
       <li>Convert data from wide to long format for models (<strong>savepath.analytic</strong>)</li>
     </ol>
   </li>
-
+  
+<br>
 
   <li>
-    <strong>consort.sas</strong>:
+    <strong>consort.sas</strong>
     <ol type="i">
       <li>Output values for consort diagram (<strong>Fig. 1; section 3.1 Sample</strong>)</li>
     </ol>
@@ -83,7 +84,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>check_decline.sas</strong>:
+    <strong>check_decline.sas</strong>
     <ol type="i">
       <li>Output rates of decline and chi-square statistic (<strong>Fig. 1; section 3.1 Sample</strong>)</li>
     </ol>
@@ -91,7 +92,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>Table1.sas</strong>:
+    <strong>Table1.sas</strong>
     <ol type="i">
       <li>Calculate numbers (%) for sample characteristics (<strong>Table 1; section 3.1 Sample</strong>)</li>
     </ol>
@@ -99,7 +100,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>Table2.sas</strong>:
+    <strong>Table2.sas</strong>
     <ol type="i">
       <li>Execute model for primary analysis and get bootstrapped distribution of predicted probabilities, differences in predicted probabilities, and the treatment-by-time interaction effects (<strong>Table 2; section 3.2 Primary hypothesis</strong>)</li>
       <li>95% confidence intervals are based on the 2.5% and 97.5% cut-offs of bootstrapped distribution</li>
@@ -108,7 +109,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>Table_S2a.sas</strong>:
+    <strong>Table_S2a.sas</strong>
     <ol type="i">
       <li>Output estimates for primary hypothesis 1 and secondary Time 1 hypotheses (<strong>Supplementary Table S2a; section 3.2 Primary hypothesis</strong>)</li>
     </ol>
@@ -116,7 +117,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>3wayinteraction.sas</strong>:
+    <strong>3wayinteraction.sas</strong>
     <ol type="i">
       <li>Output estimates for three-way interaction model testing for additive effects (<strong>section 3.2 Primary hypothesis</strong>)</li>
     </ol>
@@ -124,7 +125,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>Table_S2b.do</strong>:
+    <strong>Table_S2b.do</strong>
     <ol type="i">
       <li>Output estimates for linear probability model (<strong>Supplementary Table S2b; section 3.2 Primary hypothesis</strong>)</li>
     </ol>
@@ -132,7 +133,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>mechanism_of_effect.sas</strong>:
+    <strong>mechanism_of_effect.sas</strong>
     <ol type="i">
       <li>Output estimates for mechanism of effect model (<strong>section 3.3 Mechanism of the effect</strong>)</li>
     </ol>
@@ -140,7 +141,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>Table3.sas</strong>:
+    <strong>Table3.sas</strong>
     <ol type="i">
       <li>Output statistics for NNI (<strong>Table 3; section 3.3 Mechanism of the effect</strong>)</li>
     </ol>
@@ -148,7 +149,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>Table_S4.sas</strong>:
+    <strong>Table_S4.sas</strong>
     <ol type="i">
       <li>Output estimates for secondary Time 2 hypotheses (<strong>Supplementary Table S4; section 3.4 secondary hypotheses</strong>)</li>
     </ol>
@@ -156,7 +157,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>Table_S5.sas</strong>:
+    <strong>Table_S5.sas</strong>
     <ol type="i">
       <li>Output estimates for heterogeneity of effect(s) (<strong>Supplementary Table S5; section 3.5 Heterogeneity of effects and descriptive trends</strong>)</li>
     </ol>
@@ -164,7 +165,7 @@ Schaeffer Center for Health Policy and Economics, University Southern California
 
 
   <li>
-    <strong>antibody_levels.sas</strong>:
+    <strong>antibody_levels.sas</strong>
     <ol type="i">
       <li>Output descriptive statistics for antibody trends (<strong>Supplementary Table 6 and Table 7; section 3.5 Heterogeneity of effects and descriptive trends</strong>)</li>
     </ol>
@@ -175,10 +176,10 @@ Schaeffer Center for Health Policy and Economics, University Southern California
     1. Edit and recode survey variables
     2. Convert data from wide to long format for models (**savepath.analytic**)
 
-3. consort.sas:
+3. consort.sas
     1. Output values for consort diagram (**Fig. 1; section 3.1 Sample**)
 
-4. check_decline.sas:
+4. check_decline.sas
     1. Output rates of decline and chi-square statistic (**Fig. 1; section 3.1 Sample**)
 
 5. Table1.sas:
