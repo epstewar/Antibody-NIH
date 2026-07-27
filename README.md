@@ -62,11 +62,11 @@ Schaeffer Center for Health Policy and Economics, University Southern California
   </li>
 </ol>
 
-1. Import_redcap.sas 1. Import REDCap data and create revised antibody level variables.
+
 
 2. analytic_file.sas  
-    1. Edit and recode survey variables
-    2. Convert data from wide to long format for models (**savepath.analytic**)
+   -1. Edit and recode survey variables
+    -2. Convert data from wide to long format for models (**savepath.analytic**)
 
 3. consort.sas:
     1. Output values for consort diagram (**Fig. 1; section 3.1 Sample**)
